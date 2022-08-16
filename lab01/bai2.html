@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./bai2_submit.php" method="get">
+        <div>
+            <label for="">Số a</label>
+            <input class="number" type="number" name="number_a">
+            <p class="error-message"></p>
+        </div>
+        <div>
+            <label for="">Số b</label>
+            <input type="number" name="number_b">
+            <p class="error-message"></p> 
+        </div>
+        <button type="submit">Kiểm tra</button>
+    </form>
+    <script>
+        var numberA = document.querySelector("input[name='number_a']").value;
+        var numberB = document.querySelector("input[name='number_b']").value;
+    </script>
+</body>
+</html>

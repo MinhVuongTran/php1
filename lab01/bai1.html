@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./bai1_submit.php" method="get">
+        <div>
+            <label for="">Họ và tên</label>
+            <input type="text" name="fullname">
+        </div>
+        <div>
+            <label for="">Mã sinh viên</label>
+            <input type="text" name="student_id">
+        </div>
+        <div>
+            <label for="">Giới tính</label>
+            <input type="radio" name="gender" value="male">Nam
+            <input type="radio" name="gender" value="female">Nữ
+        </div>
+        <div>
+            <label for="">Địa chỉ</label>
+            <input type="text" name="address">
+        </div>
+        <div>
+            <label for="">Chuyên ngành</label>
+            <select name="specialized" id="">
+                <option value="">--Chuyên ngành--</option>
+                <option value="web">Thiết kế web</option>
+                <option value="mobile">Lập trình mobile</option>
+                <option value="software">Phát triển phần mềm</option>
+                <option value="graphic">Thiết kế đồ họa</option>
+                
+            </select>
+        </div>
+        <button type="submit">Save</button>
+    </form>
+</body>
+</html>
